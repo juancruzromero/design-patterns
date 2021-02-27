@@ -14,8 +14,9 @@ Es aquí cuando **POO** viene a ayudarnos a resolver problemas que tenemos los p
 - Algo como un pensamiento o acción.
 
 **Ejemplo: Un automóvil. (Literal)**
-
-[Image](https://static.wikia.nocookie.net/lossimpson/images/2/28/THomer2.jpg/revision/latest/scale-to-width-down/309?cb=20090330180213&path-prefix=es)
+<p align="center"> 
+    <img src="https://static.wikia.nocookie.net/lossimpson/images/2/28/THomer2.jpg/revision/latest/scale-to-width-down/309?cb=20090330180213&path-prefix=es">
+</p>
 
 ### Desde la teoría del Paradigma Orientado a Objetos: ###
 
