@@ -20,5 +20,6 @@ Por ejemplo, esto funciona:
 
 ```python
 class Prueba():
+    def __init__():
 
 ```
