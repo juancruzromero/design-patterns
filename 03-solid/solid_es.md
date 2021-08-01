@@ -16,10 +16,35 @@ Primero debo entender cohesión. Es una medida de cuánto una unidad tiene relac
 
 Entonces, una clase debe tener una sola razón para cambiar. Una clase realiza una sola tarea.
 
-Por ejemplo, esto funciona:
+Por ejemplo, vemos este ejemplo de código:
 
 ```python
+class Rectangulo():
+    def __init__(self, alto, ancho):
+        self.alto = alto
+        self.ancho = ancho
+    
+    def mostrar(self):
+        print(self.to_string()) 
+
+```
+```csharp
 class Prueba():
     def __init__():
 
 ```
+Sin embargo, el método Mostrar() debe ser propio de una hipotética capa de **presentación**. El Rectángulo, debe encargarse de qué datos mostrar y nó como mostrarlos.
+
+Para mejorar esto y aplicar este principio, podemos crear una clase llamada **Presentación**.
+
+```python
+class Presentacion():
+    def mostrar(self, objeto):
+        print(objeto) 
+
+```
+
+
+## Abierto/Cerrado ##
+
+Este principio dice que la entidad, ya sea módulo, clase o función, debe estar **abierta a la extensión**, pero **cerrada a la modificación**. Por ejemplo, si queremos extender la aplicación, podemos lograrlo sin modificar el código existente, por ejemplo si queremos agregar el módulo de autenticación a nuestro sistema, no deberíamos por qué modificar o reconstruir el módulo de alta de usuarios. Esto lo podemos resolver mediante la herencia.
