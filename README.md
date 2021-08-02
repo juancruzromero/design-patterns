@@ -1,6 +1,6 @@
 # Patrones de Diseños (ES) #
 
-En este repositorio vamos a estar realizando un repaso de los Patrones de Diseño más utilizados.
+En este repositorio vamos a estar realizando un repaso de los Patrones de Diseño más utilizados. Mientras los aprendo bien, voy a ir agregando mis apuntes aquí.
 
 ## Index ##
 - [Parte 1 - Introductión](https://github.com/juancruzromero/design-patterns/blob/main/01-introduction/introduction_es.md)
