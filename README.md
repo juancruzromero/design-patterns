@@ -13,7 +13,9 @@ Se hará un repaso de **Programación Orientada a Objetos**, principios **SOLID*
 - [Parte 6 - Patrones de Comportamiento](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/comportamiento.md)
 
 
-## TODO:
+## Patrones pendientes a desarrollar:
+Se aceptan pull request 😄
+
 * [ ] Abstract Factory⭐
 * [ ] Factory Method⭐
 * [ ] Builder
