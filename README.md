@@ -6,8 +6,8 @@ Se hará un repaso de **Programación Orientada a Objetos**, principios **SOLID*
 
 ## Índice
 - [Parte 1 - Introductión](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/introduction_es.md)
-- [Parte 2 - Programación Orientada a Objetos (POO)](https://github.com/juancruzromero/design-patterns/blob/main/02-poo/poo_es.md)
-- [Parte 3 - SOLID](https://github.com/juancruzromero/design-patterns/blob/main/03-solid/solid_es.md)
+- [Parte 2 - Programación Orientada a Objetos (POO)](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/poo.md)
+- [Parte 3 - SOLID](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/solid.md)
 
 ## TODO:
 * [ ] Abstract Factory
