@@ -1,9 +1,11 @@
 # Introduccion
+Luego de haber aprendido las bases de **Programación Orientada a Objetos (POO)** el próximo paso es aprender este tema para poder implementar nuestro código ante los problemas más comunes que tuvieron los programadores a lo largo de la historia.
 
+Aprender Patrones de diseños nos permitirá aplicar las mejores prácticas para tener aplicaciones robustas, legibles y mantenibles. 
 ## ¿Qué son los Patrones de Diseño?
 Es la solución a una problemática que se nos presenta, el el Patrón de Diseño nos ayuda a resolverlo con las mejores prácticas de programación. Son independientes del lenguaje, librería y sistema operativo.
 
-Los Patrones de Diseños nos permite resolver problemas complejos que los programadores más capos de la historia fueron detectando durante años. A pesar de este mundo cambiante, aún son claves y son vigentes. Mejores prácticas para tener aplicaciones robustas, legibles y mantenibles. 
+Los Patrones de Diseños nos permite resolver problemas complejos que los programadores más capos de la historia fueron detectando durante años. A pesar de este mundo cambiante, aún son claves y son vigentes. 
 
 ## Listado de Patrones de Diseño
 
@@ -26,7 +28,7 @@ Los patrones han sido clasificados en tres grupos.
 - **Decorator** Agrega responsabilidades adicionales a un objeto de forma dinámica.
 - **Facade** Nos permite utilizar módulos complejos de una forma sencilla y con bajos costos para el cliente.
 - **Flyweight** Nos permite eliminar o reducir redundancia cuando trabajamos con una gran cantidad de objetos.
-- **Proxy** Permite controlar el acceso a diferentes áreas de módulos,
+- **Proxy** Permite controlar el acceso a diferentes áreas de módulos.
 
 ## Patrones de Comportamiento
 - **Chain of Responsibility** Evita acoplar el emisor de una petición a su receptor dando a más de un objeto la posibilidad de responder a una petición. Para ello, se encadenan los receptores y pasa la petición a través de la cadena hasta que es procesada por algún objeto.
