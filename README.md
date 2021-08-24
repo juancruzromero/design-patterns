@@ -8,15 +8,31 @@ Se hará un repaso de **Programación Orientada a Objetos**, principios **SOLID*
 - [Parte 1 - Introductión](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/introduccion.md)
 - [Parte 2 - Programación Orientada a Objetos (POO)](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/poo.md)
 - [Parte 3 - SOLID](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/solid.md)
+- [Parte 4 - Patrones Creacionales](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/creacionales.md)
+- [Parte 5 - Patrones Estructurales](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/estructurales.md)
+- [Parte 6 - Patrones de Comportamiento](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/comportamiento.md)
+
 
 ## TODO:
-* [ ] Abstract Factory
-* [ ] Factory Method
-* [ ] Singleton
-* [ ] Composite 
-* [ ] Decorator
-* [ ] Facade 
+* [ ] Abstract Factory⭐
+* [ ] Factory Method⭐
+* [ ] Builder
+* [ ] Prototype
+* [ ] Singleton⭐
+* [ ] Adapter
+* [ ] Bridge 
+* [ ] Composite⭐
+* [ ] Decorator⭐
+* [ ] Facade⭐
+* [ ] Flyweight
 * [ ] Proxy
 * [ ] Chain of Responsibility
-* [ ] Observer
-* [ ] Visitor
+* [ ] Command
+* [ ] Interpreter
+* [ ] Iterator
+* [ ] Mediator
+* [ ] Memento
+* [ ] Observer⭐
+* [ ] State
+* [ ] Template
+* [ ] Visitor⭐
