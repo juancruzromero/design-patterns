@@ -38,3 +38,6 @@ Se aceptan pull request 😄
 * [ ] State
 * [ ] Template
 * [ ] Visitor⭐
+
+## Referencias
+Libro: Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (the Gang Of Four)
