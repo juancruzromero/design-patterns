@@ -1,8 +1,8 @@
-# SOLID #
+# SOLID
 
 ## Introducción a principios SOLID ##
 
-Robert C. Martín Coautor del manifiesto ágil escribió el libro: Agile Software Development: Principles, Patterns, and Practices. Ahí menciona los principios SOLID. Al aplicar estos principios en conjunto podemos crear aplicaciones modulables reutilizables y mantenibles, las cuales podremos ampliar con el paso del tiempo.
+Robert C. Martín co-autor del manifiesto ágil escribió el libro: Agile Software Development: Principles, Patterns, and Practices. Ahí menciona los **principios SOLID**. Al aplicar estos principios en conjunto podemos crear aplicaciones modulables reutilizables y mantenibles, las cuales podremos ampliar con el paso del tiempo.
 
 - S -> Responsabilidad única (Single Responsability)
 - O -> Abierto/Cerrado (Open/Closed)
