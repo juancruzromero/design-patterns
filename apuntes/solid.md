@@ -33,6 +33,7 @@ class Prueba():
     def __init__():
 
 ```
+
 Sin embargo, el método Mostrar() debe ser propio de una hipotética capa de **presentación**. El Rectángulo, debe encargarse de qué datos mostrar y nó como mostrarlos.
 
 Para mejorar esto y aplicar este principio, podemos crear una clase llamada **Presentación**.
