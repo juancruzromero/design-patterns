@@ -46,32 +46,37 @@ class Coche():
 ```
 **En C#**
 ```csharp
-class Coche():
+class Coche
+{
+    private int largo;
+    private int ancho;
+    private int ruedas;
+    private bool enMarcha;
     public Coche(int largo, int ancho)
     {
         this.largo = largo;
         this.ancho = ancho;
-        int ruedas = 4;
-        bool enMarcha = False;
+        this.ruedas = 4;
+        this.enMarcha = false;
     }
 
     public void Arrancar()
     {
-        enMarcha = True;
+        this.enMarcha = true;
     }
 
     public string Estado()
     {
-        enMarcha = True;
         if (enMarcha)
         {
             return "Prendido";
         }
-        else:
+        else
         {
             return "Apagado";
         }
     }
+}
 ```
 ## 👩‍🏫 Repasando: 
 Entonces, **las clases** son templetes, plantillas o modelos que representan entidades o conceptos y **los objetos** vienen a ser instancias de las clases, que poseen un estado y de un comportamiento. En otras palabras, es el “template con datos”.
