@@ -6,7 +6,7 @@ Se hará un repaso de **Programación Orientada a Objetos**, principios **SOLID*
 
 ## 📖 Índice
 - [Parte 1 - Introductión](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/introduccion.md)
-- [Parte 2 - Programación Orientada a Objetos (POO)](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/poo.md)
+- [Parte 2 - Repaso de Programación Orientada a Objetos (POO)](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/poo.md)
 - [Parte 3 - SOLID](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/solid.md)
 - [Parte 4 - Patrones Creacionales](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/creacionales.md)
 - [Parte 5 - Patrones Estructurales](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/estructurales.md)

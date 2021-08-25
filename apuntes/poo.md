@@ -1,14 +1,13 @@
-# Programación orientada a objetos #
 
-## ¿Qué es la Programación Orientada a Objetos (POO)? ##
+# 🤓 Repaso de Programación Orientada a Objetos (POO)
 Uno de los primeros paradigmas fue la **"Programación Estructurada"** en donde se escribe el código de forma secuencial, como por ejemplo, con el lenguaje de programación **C**.
 
 Con el tiempo este nuevo paradigma, la **Programación Orientada a Objetos** vino a solucionar algunos problemas que tenía el anterior, como por ejemplo las largas líneas de código o lo dificil que puede ser mantenerlo.
 
 Es aquí cuando **POO** viene a ayudarnos a resolver problemas que tenemos los programadores. A la hora de programar, pensar nuestros problemas en **forma de objeto**. 
 
-## Entonces... ¿Qué es un objeto? ##
-### Desde una perspectiva humana... ###
+## 🤔 Entonces... ¿Qué es un objeto?
+### 💪 Desde una perspectiva humana...
 - Algo tangible y/o visible.
 - Algo que puede comprenderse intelectualmente.
 - Algo como un pensamiento o acción.
@@ -18,14 +17,14 @@ Es aquí cuando **POO** viene a ayudarnos a resolver problemas que tenemos los p
     <img src="https://static.wikia.nocookie.net/lossimpson/images/2/28/THomer2.jpg/revision/latest/scale-to-width-down/309?cb=20090330180213&path-prefix=es">
 </p>
 
-### Desde la teoría del Paradigma Orientado a Objetos: ###
+### 🦾 Desde la teoría del Paradigma Orientado a Objetos:
 
 - Es una instancia de una clase.
 - Es cualquier cosa real o abstracta que posee una estructura  que lo define y acciones que lo controlan.
 - Tiene estado, exhibe un comportamiento bien definido y tiene una identidad única.
 - Las buenas prácticas indican tener una clase por archivo.
 
-**Ejemplo de un objeto en código:**
+**Ejemplo de una clase en código: (Al instanciar una Clase, creamos un objeto)** 
 
 **En Python**
 ```python
@@ -74,10 +73,10 @@ class Coche():
         }
     }
 ```
-#### Repasando: ####
+## 👩‍🏫 Repasando: 
 Entonces, **las clases** son templetes, plantillas o modelos que representan entidades o conceptos y **los objetos** vienen a ser instancias de las clases, que poseen un estado y de un comportamiento. En otras palabras, es el “template con datos”.
 
-## Características de un Objeto ##
+## 🎲 Características de un Objeto
 Un objeto tiene las siguientes carecterísticas:
 
 - **Propiedades:** También pueden llamarse atributos y estos también serán sustantivos. Algunos atributos o propiedades son nombre, tamaño, forma, estado, etc. Son todas las características del objeto. Ejemplo: nombre, color, etc. 
@@ -85,7 +84,7 @@ Un objeto tiene las siguientes carecterísticas:
 - **Estado:** Es el conjunto de todas las  propiedades estáticas y los  valores dinámicos que adoptan en un momento dado. Ejemplo: Encendido, apagado.
 - **Identidad:** Es la característica o conjunto de características que permiten diferenciar a un  objeto de los demás.
 
-## Principios del modelo de objetos ##
+## 🧾 Principios del modelo de objetos
 
 Elementos Fundamentales:
 
@@ -112,8 +111,6 @@ Otros elementos a tener en cuenta:
 
 - **Presistencia**: Es la propiedad de un objeto por lo que su existencia trasciende el tiempo y/o espacio.
 
-Bibliografía: POO - Grady Booch
+## 🔗 Diagrama de Modelado de Objetos
 
-## Diagrama de Modelado de Objetos ##
-
-**UML** (en inglés **Unified Modeling Language**) o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación.
+Es una buena manera de graficar las clases que forman parte de un sistema. **UML** (en inglés **Unified Modeling Language**) o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación.
