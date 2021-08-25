@@ -42,3 +42,4 @@ Se aceptan pull request 😄
 ## 📚 Referencias
 - Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (the Gang Of Four)
 - The Complete UML Training Course. Grady Booch with James Rumbaugh and Ivar Jacobson.
+- Agile Software Development: Principles, Patterns, and Practices. Several autors.
