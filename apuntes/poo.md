@@ -52,6 +52,7 @@ class Coche
     private int ancho;
     private int ruedas;
     private bool enMarcha;
+    
     public Coche(int largo, int ancho)
     {
         this.largo = largo;
