@@ -68,9 +68,9 @@ class Program
 ```
 **¿Descubriste el error?**
 
-El **"método mostrar"** debe ser propio de una hipotética capa de **presentación**. El Rectángulo, debe encargarse de qué datos mostrar **y nó como mostrarlos**.
+El método **"mostrar"** debe ser propio de una hipotética capa de **presentación**. El Rectángulo, debe encargarse de qué datos mostrar **y no como mostrarlos**.
 
-Para mejorar esto y aplicar el principio de responsabilidad simple, podemos crear una clase llamada **Presentación**.
+Para mejorar esto y aplicar el principio de responsabilidad simple, podemos crear una clase llamada **Presentación:**
 
 **En Python:**
 ```python
@@ -80,6 +80,7 @@ class Rectangulo():
         self.ancho = ancho
     
     def __str__(self):
+        # Sobrescribo __str__
         return f"Alto: {self.alto}\tAncho {self.ancho}"
 
 class Presentacion():
@@ -126,8 +127,8 @@ class Program
     }
 }
 ```
+De esta manera, estaríamos aplicando el principio
 
-
-## Abierto/Cerrado ##
+## 🚪 Abierto/Cerrado
 
 Este principio dice que la entidad, ya sea módulo, clase o función, debe estar **abierta a la extensión**, pero **cerrada a la modificación**. Por ejemplo, si queremos extender la aplicación, podemos lograrlo sin modificar el código existente, por ejemplo si queremos agregar el módulo de autenticación a nuestro sistema, no deberíamos por qué modificar o reconstruir el módulo de alta de usuarios. Esto lo podemos resolver mediante la herencia.
