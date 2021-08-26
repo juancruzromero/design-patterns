@@ -2,8 +2,9 @@
 
 ## 👨🏽‍🏫 Introducción a principios SOLID
 
-Robert C. Martín co-autor del manifiesto ágil escribió el libro: Agile Software Development: Principles, Patterns, and Practices. Ahí menciona los **principios SOLID**. Al aplicar estos principios en conjunto podemos crear aplicaciones modulables reutilizables y mantenibles, las cuales podremos ampliar con el paso del tiempo.
+Robert C. Martín co-autor del manifiesto ágil desarrolló estos **Principios SOLID**. Son las bases principales para diseñar software utilizando el paradigma orientado a objetos. Busca evitar malos diseños, tener que refactorizar el código fuente y que el mismo sea bien legible y extensible.
 
+Se llaman **Principios SOLID** por su acrónimo en inglés:
 - S -> Responsabilidad única (Single Responsability)
 - O -> Abierto/Cerrado (Open/Closed)
 - L -> Sustitución de Liskov (Liskov Substitution)
@@ -12,12 +13,17 @@ Robert C. Martín co-autor del manifiesto ágil escribió el libro: Agile Softwa
 
 ## 👩🏽‍🏭 Responsabilidad Simple
 
-Primero debo entender cohesión. Es una medida de cuánto una unidad tiene relación consigo misma. Una clase que realiza una tarea en concreto, tiene una cohesión alta.
+Primero debo entender a qué llamamos cohesión en **POO**. En principio, no es fácil de explicarlo con palabras, pero estoy seguro que con un ejemplo se entenderá perfecto. Teorícamente, es una medida de cuánto una unidad tiene relación consigo misma. La cohesión mide la fuerza de relación entre funcionalidades dentro de un programa.
 
-Entonces, una clase debe tener una sola razón para cambiar. Una clase realiza una sola tarea.
+Si vamos a un ejemplo, una clase que realiza una tarea en concreto, tiene una **cohesión alta**. Una clase que realiza diversas funcionalidades, tiene una **cohesión baja y esto no es muy deseable**.
 
-Por ejemplo, vemos este ejemplo de código:
+Haciendo una analogía con una navaja suiza, una buena práctica es hacer una clase por cada una de sus funcionalidades, una para cortar, otra para destapar vinos, etc. Una mala práctica es hacer una clase con todas estas necesidades, y entonces **no cumpliriamos con el principio de Responsabilidad Simple**.
 
+Entonces, como conclusión, **una clase debe tener una sola razón para existir**. Una clase debe realiza una sola tarea.
+
+Por ejemplo, creamos una clase con las caracteristicas de un **rectangulo**:
+
+**En Python**
 ```python
 class Rectangulo():
     def __init__(self, alto, ancho):
@@ -28,6 +34,7 @@ class Rectangulo():
         print(self.to_string()) 
 
 ```
+**En C#**
 ```csharp
 class Prueba():
     def __init__():
