@@ -31,19 +31,46 @@ class Rectangulo():
         self.ancho = ancho
     
     def mostrar(self):
-        print(self.to_string()) 
+        print(self.__str__)
 
+# Instancia de Rectangulo:
+if __name__ == '__main__':
+    miRectangulo = Rectangulo(10,20)
+    miRectangulo.mostrar()
 ```
 **En C#**
 ```csharp
-class Prueba():
-    def __init__():
+class Rectangulo
+{
+    private int alto;
+    private int ancho;
+    public Rectangulo(int alto, int ancho)
+    {
+        this.alto = alto;
+        this.ancho = ancho;
+    }
+    public void Mostrar()
+    {
+        Console.WriteLine(this.ToString());        
+    }
 
+}
+
+// Instancia de Rectangulo:
+class Program
+{
+    static void Main(string[] args)
+    {
+        Rectangulo miRectangulo = new Rectangulo(10, 20);
+        miRectangulo.Mostrar();
+    }
+}
 ```
+**¿Descubriste el error?**
 
-Sin embargo, el método Mostrar() debe ser propio de una hipotética capa de **presentación**. El Rectángulo, debe encargarse de qué datos mostrar y nó como mostrarlos.
+El **"método mostrar"** debe ser propio de una hipotética capa de **presentación**. El Rectángulo, debe encargarse de qué datos mostrar **y nó como mostrarlos**.
 
-Para mejorar esto y aplicar este principio, podemos crear una clase llamada **Presentación**.
+Para mejorar esto y aplicar el principio de responsabilidad simple, podemos crear una clase llamada **Presentación**.
 
 ```python
 class Presentacion():
