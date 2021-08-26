@@ -5,7 +5,7 @@ En este repositorio voy a estar explicando **paso a paso y en castellano** los P
 Se hará un repaso de **Programación Orientada a Objetos**, principios **SOLID**, y habrá ejemplos de cada uno de los patrones en **Python** y **C#** 🤩. 
 
 ## 📖 Índice
-- [Parte 1 - Introductión](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/introduccion.md)
+- [Parte 1 - Introducción](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/introduccion.md)
 - [Parte 2 - Repaso de Programación Orientada a Objetos (POO)](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/poo.md)
 - [Parte 3 - Principios SOLID](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/solid.md)
 - [Parte 4 - Patrones Creacionales](https://github.com/juancruzromero/design-patterns/blob/main/apuntes/creacionales.md)
