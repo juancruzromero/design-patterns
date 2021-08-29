@@ -16,7 +16,7 @@ Se hará un repaso de **Programación Orientada a Objetos**, principios **SOLID*
 ## 📝 Patrones pendientes a desarrollar:
 Se aceptan pull request 😄
 
-* [ ] Abstract Factory⭐
+* [x] Abstract Factory⭐
 * [ ] Factory Method⭐
 * [ ] Builder
 * [ ] Prototype
