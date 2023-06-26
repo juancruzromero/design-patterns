@@ -132,3 +132,86 @@ De esta manera, estaríamos aplicando el principio
 ## 🚪 Abierto/Cerrado
 
 Este principio dice que la entidad, ya sea módulo, clase o función, debe estar **abierta a la extensión**, pero **cerrada a la modificación**. Por ejemplo, si queremos extender la aplicación, podemos lograrlo sin modificar el código existente, por ejemplo si queremos agregar el módulo de autenticación a nuestro sistema, no deberíamos por qué modificar o reconstruir el módulo de alta de usuarios. Esto lo podemos resolver mediante la herencia.
+
+Arranquemos con algo que está mal. Creo una clase triangulo 
+
+**En C#:**
+```csharp
+class Triangulo():
+    private float base;
+    private float altura;
+    public float Base
+    {
+        set {base = value;}
+        get {return base;}
+    }
+
+class Presentacion
+{
+    public void Mostrar(Rectangulo rectangulo)
+    {
+        Console.WriteLine(rectangulo)
+    }
+    public void Mostrar(Triangulo triangulo)
+    {
+        Console.WriteLine(triangulo)
+    }
+}
+
+```
+**En Python:**
+```python
+class Triangulo:
+    def __init__(self):
+        self._base = 0
+        self._altura = 0
+
+    @propery
+    def base(self):
+        return self._base
+    @age.setter
+    def base(self, base):
+        self._base = base
+
+class Presentacion:
+    def mostrar(rectangulo):
+        print(rectangulo)
+
+    def mostrar(triangulo):
+        print(triangulo)
+```
+
+Sin embargo, no cumplimos con el principio **Abierto/Cerrado**, ya que si creamos una nueva figura, vamos a tener que ir a la clase "Presentación" y crear **n** cantidad de métodos.
+
+Entonces para solucionar esto, implementamos una interface:
+
+**En C#:**
+```csharp
+public interface IFigura
+{
+    float area();
+}
+
+class Triangulo : IFigura
+{
+
+}
+
+class Rectangulo : IFigura
+{
+
+}
+
+```
+
+## 😲 Sustitución de Liskov
+
+Toda clase que es hija de otra clase, debe poder utilizarse como si fuera el mismo padre. Nadie que necesite utilizar el padre, tiene que comportarse diferente si interactua con cualquiera de sus descendientes.
+
+## 🧱 Segregación de Interfaces
+
+Es mejor tener muchas clases pequeñas y especializadas, que una clase enorme.
+
+## 🚶‍♀️ Inversión de dependencia
+
+Los módulos de alto nivel, no deberían depender de módulos de bajo nivel
